@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>E-Commerce</h1>
+      <input type="text" placeholder="ürün ismi giriniz" />
+      <div class="btns">
+        <img src="images/shopping-cart.png" alt="">
+        <button id="open-btn">My Cart
+            <span id="basket-count">0</span>
+        </button>
+        <button>Register</button>
+        <button>Login</button>
+      </div>
+    </header>
+    <main>
+      <!-- KATEGORİLER -->
+      <div class="category-wrapper">
+        <h1>Categories</h1>
+        <div class="categories"></div>
+      </div>
+      <!-- ÜRÜNLER -->
+      <div class="products-wrapper">
+        <h1>Products</h1>
+
+        <div class="products"></div>
+      <!-- ÜRÜNLER SON -->
+      <!-- MODAL > SEPET -->
+       
+      <div id="modal-wrapper">
+           <div id="modal"> 
+              <img id="close-btn" src="/images/close-icon.png">
+              <div class="modal-list"> </div>
+              <div ><span id="modal-info"></span>TL </div>
+           </div>
+       </div>
+            
+        
+    </main>
+    <!-- user -->
+    <h1 class="users">Users</h1>
+    <div class="container">
+      
+      <div class="card">
+        <img src="images/hasanyalsiz.jpeg" alt="Person" class="card__image">
+        <p class="card__name">Hasan YALSIZ</p>
+        <div class="grid-container">
+    
+          <div class="grid-child-posts">
+            356 Post
+          </div>
+    
+          <div class="grid-child-followers">
+            4012 Likes
+          </div>
+    
+        </div>
+        <ul class="social-icons">
+          <li><a target="_blank" href="https://twitter.com/Hasanyalsiz"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/hasanyalsiz/"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a target="_blank" href="https://www.instagram.com/hasanyalsiz/"><i class="fa-brands fa-instagram"></i></a></li>
+          <li><a target="_blank" href="https://github.com/hasanyalsiz"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+        <button class="btn draw-border">Follow</button>
+        <button class="btn draw-border">Message</button>
+    
+      </div>
+      
+      
+    </div>
+  </body>
+</html>
